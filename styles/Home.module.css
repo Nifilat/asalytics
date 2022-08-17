@@ -1,6 +1,5 @@
 .container {
   padding: 0 2rem;
-  padding-top: 33.47;
 }
 
 .main {
@@ -110,6 +109,9 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    padding: 0 3rem;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
